@@ -78,6 +78,7 @@ os <- function() {
   code <- switch(
     id <- strsplit(os$ID, "-")[[1]][1],
     "ubuntu" = os$VERSION_CODENAME,
+    "linuxmint" = os$UBUNTU_CODENAME,
     "centos" = paste0(id, os$VERSION_ID),
     "rocky"  = , "almalinux" = , "ol" = ,
     "rhel"   = paste0("centos", strsplit(os$VERSION_ID, "\\.")[[1]][1]),
