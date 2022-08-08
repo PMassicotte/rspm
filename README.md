@@ -18,7 +18,7 @@
   Rocky Linux 8, AlmaLinux 8, Oracle Linux 7 and 8, Amazon Linux 2.
 - Support for **openSUSE / SLES** 15.3.
 - Support for **Ubuntu** 18.04, 20.04 and 22.04 (requires `apt-file`).
-- Support for **Linuxt Mint** 20.3 (focal) and 21 (jammy) (requires `apt-file`).
+- Support for **Linux Mint** 20.3 (Ubuntu Focal) and 21 (Ubuntu Jammy) (requires `apt-file`).
 
 Both R packages and system dependencies **are installed into the user home**.
 For lightning-fast system-based installations (which have other advantages,
